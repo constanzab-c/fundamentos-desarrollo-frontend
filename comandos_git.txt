@@ -1,0 +1,15 @@
+COMANDOS BÁSICOS DE GIT
+1.git --version: muestra la version de Git instalada en el computador.
+ejemplo: git --version
+2. git init: inicializa un repositorio Git en la carpeta actual
+ejemplo: git init
+3.git add: agrega archivos o cambios al area de preparacion antes de hacer un commit
+ejemplo: git add
+4.git commit: guarda los cambios realizados con un mensaje descriptivo
+ejemplo: git commit -m "primer commit"
+5.git status: muestra el estado actual del repositorio y los archivos modificados.
+ejemplo: git status
+flujo tipico de trabajo en Git:
+git add .
+git commit -m "mensaje"
+git status
