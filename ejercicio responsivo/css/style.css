@@ -1,0 +1,70 @@
+/* RESET */
+
+*{
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+body{
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+/* HERO */
+
+.hero{
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hero p{
+    color: #ccc;
+}
+/* PRODUCTOS */
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* TARJETAS */
+
+.card-producto{
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* TABLET */
+
+@media (min-width: 576px){
+
+    .productos{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card-producto{
+        width: 48%;
+    }
+
+}
+
+/* DESKTOP */
+
+@media (min-width: 992px){
+
+    .card-producto{
+        width: 30%;
+    }
+
+}
